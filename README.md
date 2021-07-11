@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![Large-Devices-SS](./screenshot.jpg)
+![Large-Devices-SS](./lg-ss.png)
 
 Medium Devices
 

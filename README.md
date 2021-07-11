@@ -29,9 +29,9 @@ Users should be able to:
 ### Screenshot
 
 ![](./screenshot.jpg)
-Large Devices
-Medium Devices
-Small Devices
+- #Large Devices
+- #Medium Devices
+- #Small Devices
 
 
 ### Links

@@ -1,0 +1,182 @@
+<!--
+========================
+Author: Miecaela Garcia
+Date: July 2021
+========================
+-->
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clipboard Landing Page</title>
+
+    <!-- tailwind -->
+    <link href="/build/tailwind.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap"
+        rel="stylesheet">
+
+    <!-- 
+        400 - regular
+        600 - semibold 
+        'lg': '1.125rem' = 18px font size
+    -->
+    <style>
+        @font-face {
+            font-family: 'Bai Jamjuree', sans-serif;
+            src: url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,400;0,600;1,400;1,600&display=swap');
+        }
+
+        .font-bai {
+            font-family: 'Bai Jamjuree', sans-serif;
+        }
+    </style>
+    
+</head>
+
+<body div class="grid w-screen h-screen bg-white">
+
+    <!-- section 1: A history... -->
+    <section class="flex flex-col items-center justify-center w-full h-full space-y-12 bg-local bg-top bg-no-repeat bg-cover" style="background-image: url(img/bg-header-desktop.png)">
+        <img class="w-32 h-auto mt-32" src="img/logo.svg">
+        <header class="flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-[40px] font-semibold font-bai text-darkgray">A history of everything you copy</h1>
+            <p class="text-lg text-center font-bai text-grayblue px-96">Clipboard allows you to track and organize everything you
+                copy. Intstantly access your clipboard on all your devices.</p>
+        </header>
+        
+        <div class="flex flex-row items-center justify-center space-x-4">
+            <button href="" class="w-56 h-12 text-lg text-white rounded-full shadow-lg font-bai bg-strongcyan hover:bg-opacity-80">Download for iOS</button>
+            <button href="" class="w-56 h-12 text-lg text-white rounded-full shadow-lg font-bai bg-lightblue hover:bg-opacity-80">Download for Mac</button>
+        </div>
+    </section>
+
+    <!-- section 2: Keep track... -->
+    <section class="flex flex-col items-center justify-center w-full h-full mt-32 space-y-20">
+        <header class="flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-[36px] font-semibold font-bai text-darkgray">Keep track of your snippets</h1>
+            <p class="text-lg text-center font-bai text-grayblue px-[355px]">Clipboard instantly stores any items you copy in the cloud, meaning you can access your snippets immediately on all your devices. Our Mac and iOS apps will help you organize everything.</p>
+        </header>
+
+        <div class="grid items-center justify-center grid-cols-2">
+            <img class="-ml-8 2xl:ml-0 2xl:pl-40" src="img/image-computer.png">
+            
+            <div class="flex flex-col justify-start py-20 pl-20 pr-72 space-y-14">
+                <header class="flex flex-col justify-start space-y-2">
+                    <h1 class="text-xl font-semibold font-bai text-darkgray">Quick search</h1>
+                    <p class="text-md font-bai text-grayblue">Easily search your snippets by contents, category, web address, applications, and more.</p>
+                </header>
+
+                <header class="flex flex-col justify-start space-y-2">
+                    <h1 class="text-xl font-semibold font-bai text-darkgray">iCloud Sync</h1>
+                    <p class="text-md font-bai text-grayblue">Instanly saves and syncs snipets across all your devices.</p>
+                </header>
+
+                <header class="flex flex-col justify-start space-y-2">
+                    <h1 class="text-xl font-semibold font-bai text-darkgray">Complete History</h1>
+                    <p class="text-md font-bai text-grayblue">Retrieve any snippets from the first moment you started using the app.</p>
+                </header>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- section 3: Access Clipboard... -->
+    <section class="flex flex-col items-center justify-center space-y-20 mt-52">
+        <header class="flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-[36px] font-semibold font-bai text-darkgray">Access Clipboard Anywhere</h1>
+            <p class="text-lg text-center font-bai text-grayblue px-[355px]">Whether you're on the go, or at your computer, you can access all your Clipboard snippets in a few simple clicks.</p>
+        </header>
+
+        <img class="" src="img/image-devices.png">
+    </section>
+
+    <!-- section 4: Supercharge your... -->
+    <section class="flex flex-col items-center justify-center mt-20 space-y-10">
+        <header class="flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-[36px] font-semibold font-bai text-darkgray">Supercharge your workflow</h1>
+            <p class="text-lg text-center font-bai text-grayblue px-[355px]">We've got the tools to boost your productivity.</p>
+        </header>
+
+        <div class="grid items-center justify-center grid-cols-3 px-32">
+            <header class="flex flex-col items-center justify-center p-6 space-y-2">
+                <img class="" src="img/icon-blacklist.svg">
+                <h1 class="text-xl font-semibold font-bai text-darkgray">Create blacklists</h1>
+                <p class="text-center text-md font-bai text-grayblue">Ensure sensitive information never makes its way to your clipboard by excluding certain sources.</p>
+            </header>
+
+            <header class="flex flex-col items-center justify-center p-6 space-y-2">
+                <img class="" src="img/icon-text.svg">
+                <h1 class="text-xl font-semibold font-bai text-darkgray">Plain text snippets</h1>
+                <p class="text-center text-md font-bai text-grayblue">Remove unwanted formatting from copied text for a consistent look.</p>
+            </header>
+
+            <header class="flex flex-col items-center justify-center p-6 space-y-2">
+                <img class="" src="img/icon-preview.svg">
+                <h1 class="text-xl font-semibold font-bai text-darkgray">Sneak preview</h1>
+                <p class="text-center text-md font-bai text-grayblue">Quick preview of all snippets on your Clipboard for easy access.</p>
+            </header>
+        </div>
+    </section>
+
+    <!-- section 5: business logos -->
+    <section class="flex flex-row items-center justify-center mt-48 space-x-20">
+        <img class="" src="img/logo-google.png">
+        <img class="" src="img/logo-ibm.png">
+        <img class="" src="img/logo-microsoft.png">
+        <img class="" src="img/logo-hp.png">
+        <img class="" src="img/logo-vector-graphics.png">
+    </section>
+
+    <!-- section 6: Clipboard for... -->
+    <section class="flex flex-col items-center justify-center mt-48 space-y-10">
+        <header class="flex flex-col items-center justify-center space-y-4">
+            <h1 class="text-[36px] font-semibold font-bai text-darkgray">Clipboard for iOS and Mac OS</h1>
+            <p class="text-lg text-center font-bai text-grayblue px-[355px]">Available for free on the App Store. Download for Mac or iOS, sync with iCloud and you're ready to start adding to your clipboard.</p>
+        </header>
+
+        <div class="flex flex-row items-center justify-center space-x-4">
+            <button href=""
+                class="w-56 h-12 text-lg text-white rounded-full shadow-lg font-bai bg-strongcyan hover:bg-opacity-80">Download
+                for iOS</button>
+            <button href=""
+                class="w-56 h-12 text-lg text-white rounded-full shadow-lg font-bai bg-lightblue hover:bg-opacity-80">Download
+                for Mac</button>
+        </div>
+    </section>
+
+    <!-- footer -->
+    <footer class="grid items-center w-full h-40 grid-cols-6 mt-48 text-lg bg-gray-100 px-36 font-bai text-darkgray">
+        <img class="flex h-auto w-14" src="img/logo.svg">
+
+        <div class="flex flex-col justify-start space-y-4">
+            <a href="" class="hover:text-strongcyan">FAQs</a>
+            <a href="" class="hover:text-strongcyan">Contact Us</a>
+        </div>
+
+        <div class="flex flex-col justify-start space-y-4">
+            <a href="" class="hover:text-strongcyan">Privacy Policy</a>
+            <a href="" class="hover:text-strongcyan">Press Kit</a>
+        </div>
+
+        <div class="flex flex-col col-span-2 space-y-4 justify-items-start">
+            <a href="" class=" hover:text-strongcyan">Install Guide</a>
+            <div class="text-transparent">blank</div>
+        </div>
+
+        <div class="flex flex-row justify-end space-x-4">
+            <i class="fa fa-facebook-square fa-lg hover:text-strongcyan text-darkgray"></i>
+            <i class="fa fa-twitter fa-lg hover:text-strongcyan text-darkgray"></i>
+            <i class="fa fa-instagram fa-lg hover:text-strongcyan text-darkgray"></i>
+        </div>
+    </footer>
+</body>
+</html>

@@ -6,7 +6,7 @@ This is a solution to the [Clipboard landing page challenge on Frontend Mentor](
 
 - [Overview](#overview)
   - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
+  - [Screenshot](#screenshot): [Large Devices](large-devices)
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
@@ -28,7 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-##### Large Devices
+#### Large Devices
 ![Large-Devices-SS](./lg-ss.png)
 
 Medium Devices

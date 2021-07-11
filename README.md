@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
 Large Devices
+![Large-Devices-SS](./screenshot.jpg)
 
 Medium Devices
 

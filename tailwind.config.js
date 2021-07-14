@@ -10,11 +10,6 @@ module.exports = {
         darkgray: "hsl(210, 10%, 33%)",
         grayblue: "hsl(201, 11%, 66%)",
       },
-
-      screens: {
-        mobile: "375px",
-        desktop: "1440px",
-      },
     },
   },
   variants: {

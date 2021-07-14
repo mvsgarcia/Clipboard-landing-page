@@ -33,7 +33,7 @@ Users should be able to:
 
 Medium Devices
 
-Small Devices
+####Small Devices
 ![Small-Devices-SS](./sm-ss.png)
 
 

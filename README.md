@@ -30,7 +30,8 @@ Users should be able to:
 #### Large Devices
 ![Large-Devices-SS](./lg-ss.png)
 
-Medium Devices
+#### Medium Devices
+![Medium-Devices-SS](./md-ss.png)
 
 #### Small Devices
 ![Small-Devices-SS](./sm-ss.png)

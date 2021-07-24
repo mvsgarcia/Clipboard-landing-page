@@ -55,22 +55,28 @@ Users should be able to:
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+I was able to add custom colors using JIT mode in Tailwind CSS
 
-To see how you can add code snippets, see below:
+Here's how I added the colors in the tailwind.config.js:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+theme: {
+    extend: {
+      colors: {
+        strongcyan: "hsl(171, 66%, 44%)",
+        lightblue: "hsl(233, 100%, 69%)",
+        darkgray: "hsl(210, 10%, 33%)",
+        grayblue: "hsl(201, 11%, 66%)",
+      },
+    },
+  },
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+I added the colors under extend so it would not override the default colors that are available in Tailwind CSS.
+
+Here's how I ran the project where JIT is enabled:
+
+```
+npx tailwindcss -o ./build/tailwind.css --jit --purge "./**/*.html" -w
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.

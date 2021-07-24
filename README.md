@@ -79,7 +79,7 @@ If you want more help with writing markdown, we'd recommend checking out [The Ma
 
 ### Continued development
 
-The code can use some peer review for refactoring, and Javascript for functionality.
+The code could use some peer review for refactoring, and Javascript for functionality.
 
 ### Useful resources
 

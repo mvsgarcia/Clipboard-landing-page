@@ -55,7 +55,7 @@ Users should be able to:
 
 ### What I learned
 
-I was able to add custom colors using JIT mode in Tailwind CSS
+I was able to add custom colors using JIT (Just-in-Time) mode in Tailwind CSS
 
 Here's how I added the colors in the tailwind.config.js:
 
@@ -73,10 +73,10 @@ theme: {
 ```
 I added the colors under extend so it would not override the default colors that are available in Tailwind CSS.
 
-Here's how I ran the project where JIT is enabled:
+Moreover, I made yse of Tailwind’s 'purge' to tree-shake unused styles and optimize your final build size:
 
 ```
-npx tailwindcss -o ./build/tailwind.css --jit --purge "./**/*.html" -w
+purge: ['./**/*.html'],
 ```
 
 ### Continued development

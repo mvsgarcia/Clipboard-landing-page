@@ -1,6 +1,6 @@
 module.exports = {
-  //to use jit in this project: npx tailwindcss -o ./build/tailwind.css --jit --purge "./**/*.html" -w
-  purge: [],
+  mode: 'jit',
+  purge: ['./**/*.html'],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {

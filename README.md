@@ -73,7 +73,7 @@ theme: {
 ```
 I added the colors under extend so it would not override the default colors that are available in Tailwind CSS.
 
-Moreover, I made use of Tailwind’s **purge** to tree-shake unused styles and optimize your final build size:
+Moreover, I made use of Tailwind’s **purge** to tree-shake unused styles and optimize the final build size:
 
 ```
 purge: ['./**/*.html'],

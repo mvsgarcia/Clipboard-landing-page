@@ -39,7 +39,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/clipboard-landing-page-using-tailwind-css--8qwNOJw4](https://www.frontendmentor.io/solutions/clipboard-landing-page-using-tailwind-css--8qwNOJw4)
 - Live Site URL: [https://mvsgarcia.github.io/Clipboard-landing-page/](https://mvsgarcia.github.io/Clipboard-landing-page/)
 
 ## My process

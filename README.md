@@ -55,28 +55,10 @@ Users should be able to:
 
 ### What I learned
 
-I was able to add custom colors using **JIT** (Just-in-Time) mode in Tailwind CSS
-
-Here's how I added the colors in the tailwind.config.js:
-
-```css
-theme: {
-    extend: {
-      colors: {
-        strongcyan: "hsl(171, 66%, 44%)",
-        lightblue: "hsl(233, 100%, 69%)",
-        darkgray: "hsl(210, 10%, 33%)",
-        grayblue: "hsl(201, 11%, 66%)",
-      },
-    },
-  },
-```
-I added the colors under extend so it would not override the default colors that are available in Tailwind CSS.
-
-Moreover, I made use of Tailwind’s **purge** to tree-shake unused styles and optimize the final build size:
+I was able to add custom colors using **JIT** (Just-in-Time) mode in Tailwind CSS, and I used a CDN version from this repo **https://github.com/beyondcode/tailwindcss-jit-cdn.git**. Here's the CDN:
 
 ```
-purge: ['./**/*.html'],
+<script src="https://unpkg.com/tailwindcss-jit-cdn"></script>
 ```
 
 ### Continued development
